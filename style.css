@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Merriweather&display=swap');
+h2{
+    color:red;
+}
+
+#profile{
+    display:grid;
+    grid-template-columns:1fr 3fr ;
+    height: 120px;
+    padding-top: 0px;
+    margin-top: 20px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+}    
+#profile_info{
+
+    height: 70px;
+    display:grid;
+    grid-template-rows: 1fr 1fr ;   
+    width:200px;
+
+}
+button{
+    height: 90%;
+    width: 85%;
+    font-size: 20px;
+    background-color: white;
+    border:solid gray 1px;
+    border-radius: 30px;
+}
+#highlight_area{
+    display:grid;
+    grid-template-columns:80px 80px 1fr;
+}
+.highlight{
+    text-align: center;
+}
+.profile_pic{
+    margin-top: auto;
+    margin-bottom: auto;
+    width:15vw;
+    height:15vw;
+}
+.highlight_pic{
+    margin-left: auto;
+    margin-right: auto;
+    width:10vw;
+    height:10vw;
+}
+
+
+.circle_img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border:solid blueviolet 1px;
+    border-radius:50%;
+
+
+}
+
+#post{
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    padding-top: 10px;
+    height: 80px;
+    
+    font-family: 'Yeon Sung', cursive;
+    
+    color:navy;
+    font-weight:bold;
+    font-size:30px;
+
+    text-align: center;
+    border-top:1px solid yellowgreen;
+    border-bottom:1px solid yellowgreen;
+    margin-top:10px;
+    margin-bottom:10px;
+
+
+}
+.stat{
+    display:grid;
+    grid-template-rows:1fr 1fr ;
+    
+}
+
+#intro{
+    font-family: 'Jua', sans-serif;
+    font-family: 'Merriweather', serif;
+    color:brown;
+    font-size:23px;
+
+}
+.thumb{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.nail{
+    width:100%;
+}
+#sub_icons{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    text-align: center;
+    font-size:15px;
+
+    height:30px;
+}
+.selected{
+    border-bottom: solid gray 3px;
+}

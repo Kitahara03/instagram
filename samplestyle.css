@@ -1,0 +1,15 @@
+#kitahara{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: solid;
+    border-top-width: 90px;
+    border-left-width: 90px;
+    border-right-width: 50px;
+    border-bottom-width: 50px;
+    border-top-color: navy;
+    border-left-color:red;
+    border-right-color: blueviolet;
+    border-bottom-color: greenyellow;
+}
